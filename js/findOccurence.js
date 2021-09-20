@@ -53,3 +53,33 @@ var findTwoMostOccurence = function(arr) {
 }
 
 console.log(findTwoMostOccurence(arr));
+
+
+
+
+var arr = ['s', 's', 'e', 'f', 'f','t','s'];
+
+
+
+
+function countOccurence(arr, ele) {
+  var set = {};
+  
+  for (var i = 0; i< arr.length; i++) {
+    var key = arr[i];
+    if (set[key] !== undefined) {
+      set[key] = ++set[key];
+    } else {
+      set[key] = 1;
+    }
+  }
+  
+  console.log(set[ele]);
+  
+  return set[ele];
+  
+}
+
+
+
+countOccurence(arr, 's');
