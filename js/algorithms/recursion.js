@@ -59,7 +59,7 @@ var factorialRc = function(n) {
     return o;
   }
   
-  // console.log(fibIt(11));
+  console.log(fibIt(3));
   
   
   
@@ -73,7 +73,7 @@ var factorialRc = function(n) {
   }
   
   
-  console.log(fibRc(3));
+  // console.log(fibRc(3));
   
   
   
@@ -95,11 +95,8 @@ var factorialRc = function(n) {
   
   
   
-  console.log(revstr(string));
+  // console.log(revstr(string));
 
 
 
  //https://2ality.com/2015/06/tail-call-optimization.html 
-
-
- 

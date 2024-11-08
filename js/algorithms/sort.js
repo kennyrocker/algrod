@@ -83,7 +83,7 @@ var partition = function(arr, start, end) {
 
   for (var i = start; i < end; i++) {
     if (arr[i] < piviot) {
-      swap(arr, i, pIndex);
+        swap(arr, i, pIndex);
       pIndex++;
     }
   }
